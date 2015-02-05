@@ -34,3 +34,15 @@
 .top-buffer {
     margin-top: 40px;
 }
+
+.active {
+    -webkit-animation-duration: 4s;
+    animation-duration:4s;
+    color: darkgoldenrod;
+}
+
+.passive {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    color: darkgreen;
+}
