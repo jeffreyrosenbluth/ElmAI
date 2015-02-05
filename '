@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="./ElmAI.css" rel="stylesheet">
+    <title>Elm Partners</title>
+  </head>
+  <body style="background-color:rgba(225,225,225,1)"> 
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+	    <img src="./static/logo.png" alt="Brand" style="margin-top: -13px">
+	  </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#why">Why</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#reports">Monthly Reports</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+      <div class="banner mid">
+        <h2>ACTIVE INDEX INVESTING</h2>
+	<p>Combining the best of passive and active investing</p>
+      </div>
+
+    <!-- <div class="container"> -->
+      <!-- Example row of columns -->
+      <div class="row top-buffer">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 style="text-align: center">How Active Index Investing Works</h1>
+	  <img src="./static/elm_venn.png" class="img-responsive" alt="Responsive image">
+        </div>
+      </div>
+      <div class="row" style="background-color:lightgray">
+	<div class="col-md-8 col-md-offset-2">
+	  <h1 style="text-align: center">Active Index Investing Features</h1>
+	</div>
+      <!-- </div> -->
+      <!-- <div class="row top-buffer"> -->
+	<div class="col-md-3">
+	  <i class="glyphicon glyphicon-fullscreen" style="font-size: 4rem; display: block; text-align: center"></i>
+	  <h3 style="text-align: center">Diversification</h3>
+	</div>
+	<div class="col-md-3">
+	  <i class="glyphicon glyphicon-random" style="font-size: 4rem; display: block; text-align: center"></i>
+	  <h3 style="text-align: center">Value & Momentum</h3>
+	</div>
+	<div class="col-md-3">
+	  <i class="glyphicon glyphicon-eur" style="font-size: 4rem; display: block; text-align: center"></i>
+	  <h3 style="text-align: center">Low Cost</h3>
+	</div>
+	<div class="col-md-3">
+	  <i class="glyphicon glyphicon-scissors" style="font-size: 4rem; display: block; text-align: center"></i>
+	  <h3 style="text-align: center">Tax Aware</h3>
+	</div>
+      </div>
+      <hr>
+      <div class="row top-buffer">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 style="text-align: center">Why Active Index Investing</h1>
+	  <img src="./static/ted.png" class="img-responsive" alt="Responsive image" style="padding-top:20px">
+       </div>
+      </div>
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+    <!-- </div> <\!-- /container -\-> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

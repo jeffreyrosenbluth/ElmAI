@@ -1,0 +1,36 @@
+.banner {
+  background: 
+    linear-gradient(
+      rgba(0, 70, 0, 0.3),
+      rgba(0, 70, 0, 0.3)
+    ),
+  url(./static/DSC_8116.jpg);
+  background-size: cover;
+  width: 1248px;
+  height: 480px;
+  position: relative;
+  float: left;
+}
+
+.mid h2 {
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-size: 6rem;
+}
+
+.mid p {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 22%;
+  font-size: 3rem;
+}
+
+.top-buffer {
+    margin-top: 40px;
+}
